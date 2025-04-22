@@ -4,7 +4,7 @@ import './App.css';
 import React, { Component } from 'react'
 import Navbar from './components/Navbar';
 import News from './components/News';
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import {HashRouter as Router,Routes,Route} from 'react-router-dom';
 import LoadingBar from "react-top-loading-bar";
 // 71ce4a524294401ba70184a5cf1ba77a
 export default class App extends Component {
